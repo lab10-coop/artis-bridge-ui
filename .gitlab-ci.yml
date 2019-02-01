@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+staging:
+  stage: deploy
+  script:
+    - cd /var/www/nginx/artis-bridge-ui
+    - git pull && git submodule update --recursive --remote
+    - . ~/.nvm/nvm.sh
+    - npm ci
+    - rm -r build
+    - npm run build
