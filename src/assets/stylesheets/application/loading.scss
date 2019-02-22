@@ -23,7 +23,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(78,44,137, 0.9);
+    background-color: $loading_background;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,7 +55,7 @@
     font-stretch: normal;
     line-height: 3;
     letter-spacing: normal;
-    color: #ffffff;
+    color: $loading_contrast;
 
     @media screen and (max-width: $mobile-width) {
       font-size: 18px;

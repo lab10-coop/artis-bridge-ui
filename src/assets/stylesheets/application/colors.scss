@@ -1,6 +1,53 @@
 
-$prim:       #129C6B;
-$prim_grad:  #0D774D;
+// $prim:       #129C6B;
+// $prim_grad:  #0D774D;
 
-$second:      #22493C;
-$second_grad: #07533A;
+// $second:      #22493C;
+// $second_grad: #07533A;
+
+// //special cases:
+// $daily_quota_background: #45277a;
+// $daily_quota_progress:   #60db97;
+
+
+// //rgba($red, $green, $blue, $alpha)
+// $loading_background: rgba(red($second),green($second), blue($second), 0.8);
+// $loading_contrast:  #ffffff;
+// $wallet_color:  white;
+
+//poa
+
+$prim:       #5c34a2;
+$prim_grad:  #5c34a2;
+
+$second:      #45277a;
+$second_grad: #45277a;
+
+//special cases
+$daily_quota_background: #45277a;
+$daily_quota_progress:   #60db97;
+$loading_background: rgba(78,44,137, 0.9);
+$loading_contrast:  white;
+$wallet_color: #502d8d;
+
+//45277a
+
+//config1: (used in POA) White Background in main section
+$background_header:      $prim;
+$background_header_grad: $prim_grad; //NOTE: not sure if header_grad makes sense ?!
+
+$background_header_contrast: white;
+
+$background_body:        white;
+$background_body_grad:   white;
+
+
+//config2: (used in ARTIS) secondary color as background color in main section
+// $background_header:      white;
+// $background_header_grad: white; //NOTE: not sure if header_grad makes sense ?!
+
+// $background_header_contrast: $second_grad;
+
+// $background_body:        $second;
+// $background_body_grad:   $second_grad;
+

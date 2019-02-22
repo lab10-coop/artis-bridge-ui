@@ -3,7 +3,7 @@
   position: absolute;
   bottom: 0;
   padding: 18px 0;
-  background-color: #5c34a2;
+  background-color: $background_header;
 
   .container {
     display: flex;
@@ -37,7 +37,7 @@
 
   &-rights {
     order: 1;
-    color: #fff;
+    color: $background_header_contrast;
     text-align: center;
     font-size: 12px;
 
