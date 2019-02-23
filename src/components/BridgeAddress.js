@@ -10,9 +10,7 @@ export const BridgeAddress = ({ isHome, reverse, labelName}) => {
     (<div className="bridge-home">
       <div className="bridge-home-container">
         <div className="home-logo-container">
-          <div className={reverse ? 'foreign-logo' : 'home-logo'}
-            style={{color: 'white', textAlign: 'center', fontWeight: 'bold'}}
-          >
+          <div className={reverse ? 'foreign-logo' : 'home-logo'}>
             {labelName}
           </div>
         </div>
@@ -24,9 +22,7 @@ export const BridgeAddress = ({ isHome, reverse, labelName}) => {
       {getAddress()}
       <div className="bridge-foreign-container">
         <div className="foreign-logo-container">
-          <div className={reverse ? 'foreign-logo' : 'home-logo'}
-               style={{color: 'white', textAlign: 'center', fontWeight: 'bold'}}
-          >
+          <div className={reverse ? 'foreign-logo' : 'home-logo'}>
             {labelName}
           </div>
         </div>
