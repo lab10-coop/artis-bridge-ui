@@ -1,8 +1,15 @@
 $background_header:      $prim;
-$background_header_grad: $prim_grad; //NOTE: not sure if header_grad makes sense ?!
+//$background_header_grad: $prim_grad; //NOTE: not sure if header_grad makes sense ?!
 
 $background_header_contrast: white;
 
 $background_body:        white;
 $background_body_grad:   white;
 
+$daily_quota_progress:   $accend;
+
+$bridge_element_background:      $prim;
+$bridge_element_background_grad: $prim_grad;
+
+$bridge_element_contrast:        white;
+$bridge_element_highlight:       #60db97;

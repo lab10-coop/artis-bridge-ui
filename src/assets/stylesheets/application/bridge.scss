@@ -146,14 +146,13 @@
     }
 
     .left-image-wrapper {
-      background-color: #5c34a2;
+      background-color: $bridge_element_background;
 
       .left-image {
         max-width: 238px;
         height: 271px;
         padding-top: 5px;
         padding-right: 5px;
-        background-color: #ffffff;
         border-top-right-radius: 10px;
 
         @media screen and (max-width: $tablet-width) {
@@ -163,7 +162,7 @@
     }
 
     .right-image-wrapper {
-      background-color: #7b5ab2;
+      background-color: $bridge_element_background_grad;
 
 
       .right-image {
@@ -171,7 +170,6 @@
         height: 271px;
         padding-bottom: 5px;
         padding-left: 5px;
-        background-color: #ffffff;
         border-bottom-left-radius: 10px;
 
         @media screen and (max-width: $tablet-width) {
@@ -183,7 +181,7 @@
 
     .bridge-transfer-content {
       width: 880px;
-      background-image: linear-gradient(to right, #5c34a2, #7b5ab2);
+      background-image: linear-gradient(to right, $bridge_element_background, $bridge_element_background_grad);
       border-top-right-radius: 10px;
       border-bottom-left-radius: 10px;
       flex-shrink: 0;
@@ -256,24 +254,24 @@
 
       .network-basic-label {
         font-size: 13px;
-        color: #ffffff;
+        color: $bridge_element_contrast;
       }
 
       .network-name {
         padding-left: 5px;
         font-size: 24px;
-        color: #ffffff;
+        color: $bridge_element_contrast;
       }
 
       .network-title {
         font-size: 24px;
         font-weight: bold;
-        color: #ffffff;
+        color: $bridge_element_contrast;
       }
 
       .network-id {
         font-size: 14px;
-        color: #ffffff;
+        color: $bridge_element_contrast;
         font-weight: bold;
         line-height: 26px;
       }
@@ -282,7 +280,7 @@
         width: 32px;
         height: 26px;
         border-radius: 3px;
-        background-color: #60db97;
+        background-color: $bridge_element_highlight;
         text-align: center;
         margin-left: 10px;
       }
@@ -290,13 +288,13 @@
       .network-balance {
         font-size: 13px;
         font-weight: bold;
-        color: #60db97;
+        color: $bridge_element_highlight;
       }
 
       .network-show-more {
         font-size: 14px;
         font-weight: bold;
-        color: #60db97;
+        color: $bridge_element_highlight;
       }
 
       .info-icon-left {
@@ -379,7 +377,7 @@
             height: 48px;
             padding-left: 16px;
             background-color: transparent;
-            color: #ffffff;
+            color: $bridge_element_contrast;
             font-size: 24px;
             font-weight: bold;
 
@@ -422,7 +420,7 @@
             width: 92px;
             height: 48px;
             border-radius: 3px;
-            background-color: #60db97;
+            background-color: $bridge_element_highlight;
             color: #ffffff;
             font-weight: bold;
 
@@ -686,7 +684,7 @@
           font-size: 15px;
           font-weight: bold;
           border-radius: 3px;
-          background-color: #60db97;
+          background-color: $bridge_element_highlight;
           text-decoration: none;
         }
 
@@ -933,7 +931,7 @@
         font-size: 15px;
         font-weight: bold;
         border-radius: 3px;
-        background-color: #60db97;
+        background-color: $bridge_element_highlight;
         text-decoration: none;
       }
 

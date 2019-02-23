@@ -5,10 +5,11 @@ $prim_grad:  #0D774D;
 $second:      #22493C;
 $second_grad: #07533A;
 
-//special cases:
-$daily_quota_background: #45277a;
-$daily_quota_progress:   #60db97;
+$accend:       $prim;
 
+//special cases:
+$daily_quota_background: #cccccc;
+$daily_quota_progress:   $prim;
 
 //rgba($red, $green, $blue, $alpha)
 $loading_background: rgba(red($second),green($second), blue($second), 0.8);

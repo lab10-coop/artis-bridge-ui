@@ -2,14 +2,19 @@
 //poa
 
 $prim:       #5c34a2;
-$prim_grad:  #5c34a2;
+$prim_grad:  #7b5ab2;
 
 $second:      #45277a;
 $second_grad: #45277a;
 
+$accend:       #60db97;
+
 //special cases
 $daily_quota_background: #45277a;
-$daily_quota_progress:   #60db97;
+$daily_quota_progress:   $accend;
 $loading_background: rgba(78,44,137, 0.9);
 $loading_contrast:  white;
 $wallet_color: #502d8d;
+
+$bridge_element_background: $prim;
+$bridge_element_background_grad: $prim_grad;
