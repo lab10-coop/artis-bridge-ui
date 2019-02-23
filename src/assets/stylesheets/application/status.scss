@@ -6,6 +6,10 @@
     width: 70%;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
 
     @media screen and (max-width: $tablet-width) {
       width: 90%;
@@ -21,7 +25,6 @@
     .status-configuration-container {
       display: flex;
       flex-direction: column;
-      padding-top: 30px;
 
       .status-configuration-data {
         display: flex;
@@ -55,7 +58,7 @@
             font-weight: bold;
             line-height: 59px;
             text-align: left;
-            color: #5c34a2;
+            color: $highlight_on_white;
             padding-right: 20px;
 
             @media screen and (max-width: $tablet-width) {

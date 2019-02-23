@@ -104,12 +104,12 @@ strong {
   .datablock-value {
     font-size: 30px;
     font-weight: bold;
-    color: #5c34a2;
+    color: $highlight_on_white;
   }
 
   .datablock-type {
     font-size: 18px;
-    color: #5c34a2;
+    color: $highlight_on_white;
     margin-left: 10px;
   }
 
