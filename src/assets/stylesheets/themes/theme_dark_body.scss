@@ -13,8 +13,9 @@ $daily_quota_progress:   $accend;
 $bridge_element_background:   white;
 $bridge_element_background_grad: white;
 
-$bridge_element_contrast: $second_grad;
+$bridge_element_contrast: $second;
 $bridge_element_highlight:       $accend;
 
+$contrast_on_white: $second;
 
 @import "theme_general_value_derivation";

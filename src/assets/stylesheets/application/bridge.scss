@@ -561,7 +561,7 @@
 
         .details-description {
           font-size: 14px;
-          color: #5c34a2;
+          color: $contrast_on_white;
         }
 
         .details-description-black {
@@ -655,14 +655,14 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        color: #5c34a2;
+        color: $contrast_on_white; //#5c34a2;
         font-size: 14px;
 
         .alert-logo-box{
           width: 50px;
           height: 50px;
           border-radius: 4px;
-          background-color: #5c34a2;
+          background-color: $prim;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -679,7 +679,7 @@
       .transfer-description {
         line-height: 1.71;
         font-size: 14px;
-        color: #5c34a2;
+        color: $contrast_on_white;
         padding-top: 10px;
         padding-bottom: 10px;
       }
@@ -701,11 +701,11 @@
           width: 76px;
           height: 40px;
           border-radius: 3px;
-          color: #5c34a2;
+          color: $contrast_on_white;
           font-size: 15px;
           font-weight: bold;
           background-color: #ffffff;
-          border: solid 1px #5c34a2;
+          border: solid 1px $contrast_on_white;
           text-decoration: none;
           margin-left: 20px;
         }
