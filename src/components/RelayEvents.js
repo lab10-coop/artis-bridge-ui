@@ -14,16 +14,7 @@ const ENTER_KEY = 13;
 export class RelayEvents extends React.Component {
   constructor(props){
     super(props)
-    this.timer = null;
-    this.colors = {
-      'UserRequestForSignature': 'green',
-      'RelayedMessage': 'green',
-      'UserRequestForAffirmation': 'red',
-      'AffirmationCompleted': 'red',
-      'SignedForUserRequest': 'purple',
-      'SignedForAffirmation': 'purple',
-      'CollectedSignatures': 'blue'
-    }
+    this.timer = null
     this.homeValue = '0'
     this.foreingValue = '1'
     this.state = {
@@ -106,7 +97,7 @@ export class RelayEvents extends React.Component {
   getHomeEvents = (homeStore) => {
     return homeStore.events.slice().map(({event, transactionHash, blockNumber, returnValues}) =>
       ({
-        color: this.colors[event],
+        color: event,
         eventName: event,
         transactionHash,
         recipient: returnValues.recipient,
@@ -119,7 +110,7 @@ export class RelayEvents extends React.Component {
     return foreignStore.events.slice()
       .map(({ event, transactionHash, signedTxHash, blockNumber, returnValues}) => {
         return ({
-          color: this.colors[event],
+          color: event,
           eventName: event,
           transactionHash,
           recipient: returnValues.recipient,

@@ -13,3 +13,31 @@
 .blue {
   color: #3ab9fe;
 }
+
+.background-UserRequestForSignature {
+  background-color: $background-UserRequestForSignature;
+}
+
+.background-RelayedMessage {
+  background-color: $background-RelayedMessage;
+}
+
+.background-UserRequestForAffirmation {
+  background-color: $background-UserRequestForAffirmation;
+}
+
+.background-AffirmationCompleted {
+  background-color: $background-AffirmationCompleted;
+}
+
+.background-SignedForUserRequest {
+  background-color: $background-SignedForUserRequest;
+}
+
+.background-SignedForAffirmation {
+  background-color: $background-SignedForAffirmation;
+}
+
+.background-CollectedSignatures {
+  background-color: $background-CollectedSignatures;
+}
