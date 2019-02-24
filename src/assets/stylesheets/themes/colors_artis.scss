@@ -13,7 +13,7 @@ $daily_quota_progress:   $prim;
 
 //rgba($red, $green, $blue, $alpha)
 $loading_background: rgba(red($second),green($second), blue($second), 0.8);
-$loading_contrast:  #ffffff;
+$loading_contrast:  white;
 $wallet_color:  white;
 
 $text_on_white: $second;
@@ -22,6 +22,7 @@ $highlight_on_white: $prim;
 //$bridge_controls_background: rgba(251, 251, 252, 0.6);
 $bridge_controls_background: rgba(180, 180, 180, 0.4);
 
+//colors for highlighting event states.
 $background-UserRequestForSignature:   #f97599;
 $background-RelayedMessage:            #f97599;
 $background-UserRequestForAffirmation: #ff124f;
