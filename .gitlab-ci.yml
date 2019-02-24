@@ -5,6 +5,7 @@ staging:
   stage: deploy
   script:
     - cd /var/www/nginx/artis-bridge-ui
+    - git checkout package-lock.json
     - git pull && git submodule update --recursive --remote
     - . ~/.nvm/nvm.sh && nvm use lts/carbon
     - npm ci
