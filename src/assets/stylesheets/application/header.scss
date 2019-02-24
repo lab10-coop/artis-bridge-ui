@@ -143,7 +143,7 @@
         font-size: 14px;
         font-weight: bold;
         line-height: 18px;
-        color: #ffffff;
+        color: $background_header_contrast;
       }
 
       .wallet-link {
@@ -208,7 +208,7 @@
           font-size: 14px;
           font-weight: bold;
           text-align: left;
-          color: $background_header;
+          color: $highlight_on_white;
         }
 
         .daily-quota-description {
