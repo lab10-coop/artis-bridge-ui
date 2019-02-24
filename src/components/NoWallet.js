@@ -40,7 +40,8 @@ export class NoWallet extends Component {
                 target="_blank"
               >
                 Metamask
-              </a>
+              </a>   
+{/*               
               <a
                 className="noWallet-niftyWallet"
                 href="https://poanet.zendesk.com/hc/en-us/articles/360008957634-Nifty-Wallet"
@@ -49,6 +50,7 @@ export class NoWallet extends Component {
               >
                 Nifty Wallet
               </a>
+               */}
               <button className="noWallet-cancel" onClick={this.handleCancel}>Cancel</button>
             </div>
           </div>

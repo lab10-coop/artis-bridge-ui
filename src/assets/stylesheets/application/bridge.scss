@@ -733,7 +733,7 @@
 
   .noWallet-image-container {
     width: 150px;
-    background-image: linear-gradient(to right, #7258b0, #5231a0);
+    background-image: linear-gradient(to right, $no_wallet_grad_stop1, $no_wallet_grad_stop2);
     border-radius: 8px 0 0 8px;
 
     @media screen and (max-width: $tablet-width) {
@@ -761,7 +761,7 @@
 
     .noWallet-title {
       font-size: 44px;
-      color: #5c34a2;
+      color: $contrast_on_white;
       line-height: 1;
 
       @media screen and (max-width: $tablet-width) {
@@ -818,7 +818,7 @@
       text-align: center;
       border-radius: 3px;
       color: #ffffff;
-      background-color: #5c34a2;
+      background-color: $contrast_on_white;
 
       @media screen and (max-width: $small-mobile-width) {
         width: 100%;
@@ -830,8 +830,8 @@
       width: 72px;
       height: 36px;
       border-radius: 3px;
-      border: 1px solid #5c34a2;
-      color: #5c34a2;
+      border: 1px solid $contrast_on_white;
+      color: $contrast_on_white;
       background-color: #ffffff;
 
       @media screen and (max-width: $small-mobile-width) {
