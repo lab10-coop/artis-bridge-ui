@@ -116,9 +116,11 @@
   .header-mobile-menu-container {
     @media screen and (max-width: $mobile-width) {
       height: 172px;
-      background-color: #45277a;
+      background-color: $mobile_background;
     }
   }
+
+  
 
   .header-wallet {
     width: 220px;

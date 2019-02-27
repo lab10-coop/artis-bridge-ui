@@ -10,11 +10,14 @@ $daily_quota_progress:   $accend;
 
 $bridge_element_background:      $prim;
 $bridge_element_background_grad: $prim_grad;
+$mobile_background:              $second;
 
 $bridge_element_contrast:        white;
 $bridge_element_highlight:       $accend;
 
 
 $contrast_on_white: $prim;
+
+$loading_background: $loading_background;
 
 @import "theme_general_value_derivation";

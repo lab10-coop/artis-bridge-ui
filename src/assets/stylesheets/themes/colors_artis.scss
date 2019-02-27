@@ -19,7 +19,6 @@ $wallet_color:  white;
 $text_on_white: $second;
 $highlight_on_white: $prim;
 
-//$bridge_controls_background: rgba(251, 251, 252, 0.6);
 $bridge_controls_background: rgba(180, 180, 180, 0.4);
 
 //colors for highlighting event states.
@@ -33,3 +32,5 @@ $background-CollectedSignatures:       #5be541;
 
 $no_wallet_grad_stop1:  $prim;
 $no_wallet_grad_stop2:  $prim_grad;
+
+@import "theme_dark_body";
