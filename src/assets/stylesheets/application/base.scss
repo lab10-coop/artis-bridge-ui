@@ -16,7 +16,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding-bottom: $footer-height_desktop;
-  background-image: linear-gradient(to bottom, $background_body,$background_body_grad);  
+  background-image: linear-gradient(to right, $background_body,$background_body_grad);  
   font-family: 'Nunito', sans-serif;
 
   @media screen and (max-width: $tablet-width) {
