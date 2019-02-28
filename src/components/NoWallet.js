@@ -28,29 +28,16 @@ export class NoWallet extends Component {
           </div>
           <div className="noWallet-alert-container">
             <h2 className="noWallet-title">Wallet not found</h2>
-            <p className="noWallet-description">A wallet is not installed. Before continue, please install one (Metamask
-              or Nifty Wallet) and return to this page to continue using the application.</p>
-            <p className="noWallet-description">For further information on how to install any of both wallets, please
-              click the buttons below.</p>
+            <p className="noWallet-description">A wallet is not installed. Before continue, please install Metamask and return to this page to continue using the application.</p>
             <div className="noWallet-buttons">
               <a
                 className="noWallet-metamask"
-                href="https://poanet.zendesk.com/hc/en-us/articles/360007464553-MetaMask"
+                href="https://github.com/lab10-coop/tau1/#use-with-metamask"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 Metamask
-              </a>   
-{/*               
-              <a
-                className="noWallet-niftyWallet"
-                href="https://poanet.zendesk.com/hc/en-us/articles/360008957634-Nifty-Wallet"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Nifty Wallet
               </a>
-               */}
               <button className="noWallet-cancel" onClick={this.handleCancel}>Cancel</button>
             </div>
           </div>
