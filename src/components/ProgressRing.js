@@ -17,8 +17,7 @@ export class ProgressRing extends Component {
         width={radius * 2}
       >
         <circle
-          stroke="#7b5ab2"
-          fill="transparent"
+          className="progress_upcomming"
           strokeWidth={ stroke }
           strokeDasharray={ circumference + ' ' + circumference }
           style={ { strokeDashoffset: 0 } }
@@ -27,8 +26,7 @@ export class ProgressRing extends Component {
           cy={ radius }
         />
         <circle
-          stroke="#60dc97"
-          fill="transparent"
+          className="progress_done"
           strokeWidth={ stroke }
           strokeDasharray={ circumference + ' ' + circumference }
           style={ { strokeDashoffset } }

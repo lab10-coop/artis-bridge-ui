@@ -12,6 +12,17 @@
   }
 }
 
+.progress_upcomming {
+  stroke: $prim_grad;
+  fill: transparent;
+}
+
+.progress_done {
+  stroke: $accend;
+  fill: transparent;
+}
+
+
 .loading {
   width: 234px;
   height: 50px;
