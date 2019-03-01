@@ -9,8 +9,8 @@ export const BridgeAddress = ({ isHome, reverse, labelName}) => {
     (<div className="foreign-address-container" />)
   
   var coin = labelName
-  if (labelName == 'ATS') coin = <img src={coin_ats} />
-  if (labelName == 'ATS20') coin = <img src={coin_ats20} />
+  if (labelName === 'ATS') coin = <img src={coin_ats} alt={labelName} />
+  if (labelName === 'ATS20') coin = <img src={coin_ats20} alt={labelName} />
 
   return isHome ?
     (<div className="bridge-home">
