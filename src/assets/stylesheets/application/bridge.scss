@@ -55,6 +55,29 @@
           color: $bridge_element_contrast
         }
       }
+
+      // .home-logo-container:after {
+      //   content: "";
+      //   position: absolute;
+      //   height: 10px;
+      //   width: 10px;
+      //   bottom: 0;
+  
+      //   @media screen and (max-width: $tablet-width) {
+      //     display: none;
+      //   }
+      // }
+
+      // .home-logo-container:after {
+      //   right: 1000px;
+      //   top: 100px;
+      //   border-radius: 0 0 0 10px;
+      //   box-shadow: 10px 0 0 0 red;
+  
+      //   @media screen and (max-width: $tablet-width) {
+      //     display: none;
+      //   }
+      // }
     }
 
     .home-address-container {
