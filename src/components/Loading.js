@@ -1,6 +1,5 @@
 import React from 'react';
 import { inject, observer } from "mobx-react";
-import loadingLogo from '../assets/images/logos/logo-loader.svg'
 import { ProgressRing } from './ProgressRing'
 import { PreventExit } from './PreventExit'
 
@@ -21,8 +20,14 @@ export class Loading extends React.Component {
           confirmationNumber={blockConfirmations}
           hideConfirmationNumber={loadingStepIndex > 1}
         />}
-        {loadingStepIndex === 0 && (<img className="loading" src={loadingLogo} alt="loading"/>)}
-        {loadingStepIndex === 0 && <div className="loading-i" />}
+        {loadingStepIndex === 0 && (<div className="loading">
+                                          <div className="loading-i" />
+                                          <div className="loading-i" />
+                                          <div className="loading-i" />
+                                          <div className="loading-i" />
+                                          <div className="loading-i" />
+                                          <div className="loading-i" />
+                                      </div>)}
         {loadingStepIndex > 0 && (<div className="loading-text">{loadingSteps[loadingStepIndex]}</div>)}
         {alertStore.showLoading && <PreventExit />}
       </div>
