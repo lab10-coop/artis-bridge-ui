@@ -26,6 +26,7 @@ export const BridgeAddress = ({ isHome, reverse, labelName}) => {
     :
     (<div className="bridge-foreign">
       {getAddress()}
+      <div className="bridge-foreign-curve-element" />
       <div className="bridge-foreign-container">
         <div className="foreign-logo-container">
           <div className={reverse ? 'foreign-logo' : 'home-logo'}>

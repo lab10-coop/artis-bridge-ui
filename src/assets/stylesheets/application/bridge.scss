@@ -57,8 +57,16 @@
         }
       }
 
-
-
+      .home-logo-container:before {
+        background-color: $bridge_element_background;
+        width: 10px;
+        height: 10px;
+        content: '';
+        position: absolute;
+        right: -10px;
+        bottom: 0;
+        border-radius: 0px, 0px, 10px, 0px
+      }
 
       .home-logo-container:after {
         background-color: $background_body;
@@ -84,16 +92,7 @@
       }
     }
 
-    .home-logo-container:before {
-      background-color: $bridge_element_background;
-      width: 10px;
-      height: 10px;
-      content: '';
-      position: absolute;
-      right: -10px;
-      bottom: 0;
-      border-radius: 0px, 0px, 10px, 0px
-    }
+
   }
 
   .bridge-foreign {
@@ -133,6 +132,28 @@
           color: $bridge_element_contrast;
         }
       }
+
+      // .foreign-logo-container:before {
+      //   background-color: red; //$bridge_element_background;
+      //   width: 100px;
+      //   height: 100px;
+      //   content: '';
+      //   position: relative;
+      //   //left: -10px;
+      //   left: -40px;
+      //   border-radius: 0px, 0px, 10px, 0px
+      // }
+
+      // .foreign-logo-container:after {
+      //   background-color: blue;//$background_body;
+      //   width: 100px;
+      //   height: 100px;
+      //   content: '';
+      //   position: absolute;
+      //   left: -10px;
+      //   bottom: 0;
+      //   border-radius:  0 0 0 10px;
+      // }
     }
 
     .foreign-address-container {
@@ -148,6 +169,37 @@
         padding: 20px;
       }
     }
+
+    .bridge-foreign-curve-element {
+      background: $bridge_element_background_grad;
+      width: 10px;
+      height: 10px;
+      position: relative;
+    }
+
+    .bridge-foreign-curve-element:after {
+      background: $background_body_grad;
+      content: '';
+      width: 10px;
+      height: 10px;
+      border-radius:  0 10px 0 0;
+      position: absolute;
+      right: 0px;
+      bottom: 0;
+
+    }
+
+    // .home-logo-container:after {
+    //   background-color: $background_body;
+    //   width: 10px;
+    //   height: 10px;
+    //   content: '';
+    //   position: absolute;
+    //   right: -10px;
+    //   bottom: 0;
+    //   border-radius:  0 0 0 10px;
+    // }
+
   }
 
   // .address-label {
