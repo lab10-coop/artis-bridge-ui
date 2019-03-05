@@ -320,7 +320,10 @@ export class Bridge extends React.Component {
                   currency={reverse ? homeStore.symbol : foreignStore.symbol}
                   balance={reverse ? homeStore.getDisplayedBalance() : foreignStore.balance} />
               </div>
+              <div className="bridge-curve-element bridge-right-curve-element" />
+              <div className="bridge-curve-element bridge-left-curve-element" />
             </div>
+            
             <div className="right-image-wrapper">
               <img className="right-image" src={rightImage} alt=""/>
             </div>

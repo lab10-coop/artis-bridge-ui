@@ -132,28 +132,6 @@
           color: $bridge_element_contrast;
         }
       }
-
-      // .foreign-logo-container:before {
-      //   background-color: red; //$bridge_element_background;
-      //   width: 100px;
-      //   height: 100px;
-      //   content: '';
-      //   position: relative;
-      //   //left: -10px;
-      //   left: -40px;
-      //   border-radius: 0px, 0px, 10px, 0px
-      // }
-
-      // .foreign-logo-container:after {
-      //   background-color: blue;//$background_body;
-      //   width: 100px;
-      //   height: 100px;
-      //   content: '';
-      //   position: absolute;
-      //   left: -10px;
-      //   bottom: 0;
-      //   border-radius:  0 0 0 10px;
-      // }
     }
 
     .foreign-address-container {
@@ -186,8 +164,8 @@
       position: absolute;
       right: 0px;
       bottom: 0;
-
     }
+
 
     // .home-logo-container:after {
     //   background-color: $background_body;
@@ -257,6 +235,56 @@
       }
     }
 
+
+    .bridge-transfer-content {
+      position: relative;
+    }
+
+
+
+    .bridge-curve-element {
+      background: $bridge_element_background_grad;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+
+      @media screen and (max-width: $tablet-width) {
+        display: none;
+      }
+       
+    }
+
+    .bridge-right-curve-element {
+      bottom: 0px;
+      right: -10px;
+    }
+
+    .bridge-left-curve-element {
+      top: 0px;
+      left: -10px;
+    }
+
+    .bridge-curve-element:after {
+      
+      content: '';
+      width: 10px;
+      height: 10px;
+      
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
+
+    .bridge-right-curve-element:after {
+      background: $background_body_grad;
+      border-bottom-left-radius: 100%;
+    }
+
+    .bridge-left-curve-element:after { 
+      border-top-right-radius: 100%;
+      background: $background_body;
+      
+    }
 
     .bridge-transfer-content {
       width: 880px;
