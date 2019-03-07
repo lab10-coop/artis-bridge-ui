@@ -17,7 +17,7 @@ body {
   box-sizing: border-box;
   padding-bottom: $footer-height_desktop;
   background-image: linear-gradient(to right, $background_body,$background_body_grad);  
-  font-family: 'Nunito', sans-serif;
+  font-family: $font_prim, sans-serif;
 
   @media screen and (max-width: $tablet-width) {
     padding-bottom: $footer-height_mobile;
@@ -48,7 +48,7 @@ button {
   padding: 0;
   outline: none;
   border: 0;
-  font-family: 'Open Sans', sans-serif;
+  //font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 
