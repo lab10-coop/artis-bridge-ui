@@ -35,6 +35,20 @@
   	height: 27px;
   }
 
+  &-app-name {
+    display: $app_name_display;
+    font-size: 12px;
+    color: $accend;
+    text-decoration: none;
+    text-align: center; 
+    margin-top: 10px;
+    text-decoration: none;
+
+ //   @media screen and (max-width: $tablet-width) {
+ //     display: none;
+ //   }
+  }
+
   &-rights {
     order: 1;
     color: $background_header_contrast;

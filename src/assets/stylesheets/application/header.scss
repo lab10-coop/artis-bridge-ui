@@ -27,6 +27,20 @@
   	height: 38px;
   }
 
+  &-app-name {
+    display: $app_name_display;
+    font-size: 12px;
+    color: $accend;
+    align-content: left;
+    align-self: flex-start;
+    text-decoration: none;
+    text-align: left;
+
+    // @media screen and (max-width: $tablet-width) {
+    //   display: none;
+    // }
+  }
+
 
   .links_container {
     display: flex;

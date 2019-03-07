@@ -38,7 +38,9 @@ export class Header  extends React.Component {
         {showMobileMenu && (<div className="header-mobile-menu-container">{getMobileMenuLinks(onMenuToggle, withoutEvents)}</div>)}
         <div className="container">
           <Link to="/" onClick={showMobileMenu ? onMenuToggle : null}><img className="header-logo" src={logo}
-                                                                           alt=""/></Link>
+                                                                           alt=""/> </Link>          
+          <Link to="/" style={{ textDecoration: 'none' }} onClick={showMobileMenu ? onMenuToggle : null}><p className="header-app-name">Bridge UI App</p></Link>
+
           <div className="links_container">
             {withoutEvents ? null :
               <Link to='/events' className="link">
