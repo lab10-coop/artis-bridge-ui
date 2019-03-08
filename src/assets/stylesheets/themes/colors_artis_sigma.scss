@@ -5,4 +5,6 @@ $prim_grad:  #0D774D;
 $second:      #22493C;
 $second_grad: #07533A;
 
+$loading_background: rgba(red($second),green($second), blue($second), 0.8);
+
 @import "colors_artis_base";
