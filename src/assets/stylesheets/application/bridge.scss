@@ -12,6 +12,18 @@
   }
 }
 
+.bridge-container-background {
+  background-image: url("../images/bridge-body-bg.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 980px auto;
+
+  @media screen and (max-width: $tablet-width) {
+    background-image: none;
+  }
+}
+
+
 .bridge {
   width: 100%;
   display: flex;
@@ -207,6 +219,8 @@
 
     .left-image-wrapper {
 
+      display: none;
+
       .left-image {
         max-width: 272px;
         height: 271px;
@@ -222,12 +236,17 @@
 
     .right-image-wrapper {
 
+      //visibility: hidden;
+      display: none;
+
       .right-image {
         max-width: 272px;
         height: 271px;
         padding-bottom: 5px;
         padding-left: 5px;
         border-bottom-left-radius: 10px;
+
+        
 
         @media screen and (max-width: $tablet-width) {
           display: none;
