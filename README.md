@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/lab10-coop/bridge-ui.svg?branch=ARTIS-sigma)](https://travis-ci.org/lab10-coop/bridge-ui)
 [![Gitter](https://badges.gitter.im/poanetwork/poa-bridge.svg)](https://gitter.im/poanetwork/poa-bridge?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Coverage Status](https://coveralls.io/repos/github/lab10-coop/bridge-ui/badge.svg?branch=ARTIS-sigma)](https://coveralls.io/github/lab10-coop/bridge-ui?branch=ARTIS-sigma)
 [![dependencies Status](https://david-dm.org/lab10-coop/artis-bridge-ui/status.svg)](https://david-dm.org/lab10-coop/artis-bridge-ui)
 
 Welcome to the ARTIS Bridge! Following is an overview of the ARTIS Bridge and ARTIS UI Application, as well as [basic instructions for getting started](#getting-started).
@@ -178,15 +177,6 @@ REACT_APP_DESCRIPTION | The meta description for the deployed bridge page
   * Make sure your web3 wallet (MetaMask) is funded and connected to the ARTIS tau1 Network (see step 2)
   * Specify an amount and click `Transfer` to complete a cross-chain transaction from ARTIS tau1 to Kovan
 
-## Testing
-
-To run tests
-
-`npm run test`
-
-To run tests with coverage
-
-`npm run coverage`
 
 ## Contributing
 
